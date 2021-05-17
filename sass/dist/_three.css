@@ -1,0 +1,42 @@
+.section__three {
+  background-color: #F5F5F5;
+  color: #3B5062;
+}
+.section__three h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "ArialMT";
+  margin-bottom: 10px;
+  padding-top: 50px;
+}
+
+/** ul
+ * list-style-image: url('../img/plus_icon.svg') left center **/
+.plus__icon {
+  margin-top: -20px;
+  word-wrap: break-word;
+  min-width: 422px;
+  max-width: 600px;
+  background: url("../img/plus_icon.jpeg") no-repeat left center;
+  padding-left: 20px;
+  list-style-type: none;
+  font-size: 17px;
+  line-height: 23px;
+  font-family: "ArialMT";
+}
+
+.content__list {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 25px;
+}
+
+.items {
+  padding-bottom: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.items--right {
+  margin-left: -38px;
+}

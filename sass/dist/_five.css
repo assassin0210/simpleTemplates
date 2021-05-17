@@ -1,0 +1,60 @@
+.section__five {
+  flex-wrap: wrap;
+}
+.section__five h3 {
+  font-size: 30px;
+  font-family: "ArialMT";
+  color: #3B5062;
+  text-align: center;
+}
+
+.five__block__left {
+  display: flex;
+  flex-direction: column;
+}
+.five__block__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 76px;
+  height: 76px;
+  background-color: #3B5062;
+}
+
+blockquote {
+  max-width: 483px;
+  min-height: 121px;
+  background-color: #EBEBEB;
+  border-radius: 10px;
+  position: relative;
+  margin: 0;
+  margin-bottom: 22px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+blockquote::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: -30px;
+  border: 15px solid transparent;
+  border-right: 20px solid #EBEBEB;
+}
+blockquote p {
+  margin: 0;
+  padding: 15px;
+  padding-bottom: 0;
+}
+
+.quote {
+  display: flex;
+  max-width: 40%;
+}
+
+cite {
+  padding: 15px;
+}

@@ -1,0 +1,8 @@
+.footer {
+  text-align: center;
+  margin: 10px 0;
+}
+.footer__item {
+  color: #445162;
+  font-family: "ArialMT";
+}

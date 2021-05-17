@@ -1,0 +1,37 @@
+.section__two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 49px;
+  margin-bottom: -40px;
+}
+
+.container__two {
+  margin: 0;
+  display: flex;
+  width: 1181px;
+  height: 301px;
+  margin: 0;
+  color: #3B5062;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.box__two {
+  width: 431px;
+  height: 246px;
+  background-color: #3B5062;
+  display: flex;
+}
+
+.about__product {
+  max-width: 649px;
+}
+.about__product h3 {
+  font-size: 30px;
+  font-family: "ArialMT";
+}
+.about__product p {
+  font-size: 16px;
+  font-family: "ArialMT";
+}
